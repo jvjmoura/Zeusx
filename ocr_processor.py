@@ -6,6 +6,7 @@ import tempfile
 import os
 from typing import Union, List
 
+poppler_path = "/usr/local/bin/"
 
 # Definir o caminho correto para o executável Tesseract no ambiente Streamlit Cloud
 pytesseract.pytesseract.tesseract_cmd = "/usr/bin/tesseract"  # Caminho comum no Streamlit Cloud
