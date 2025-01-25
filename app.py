@@ -8,7 +8,7 @@ from langchain_openai import ChatOpenAI
 
 from document_processor import DocumentProcessor
 from loaders import carrega_pdf
-pytesseract.pytesseract.tesseract_cmd = "/usr/bin/tesseract"
+
 CONFIG_MODELOS = {'Groq': 
                         {'modelos': ['llama-3.1-70b-versatile', 'gemma2-9b-it', 'mixtral-8x7b-32768'],
                          'chat': ChatGroq},
