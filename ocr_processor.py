@@ -6,6 +6,15 @@ import tempfile
 import os
 from typing import Union, List
 
+
+# Definir o caminho correto para o executável Tesseract no ambiente Streamlit Cloud
+pytesseract.pytesseract.tesseract_cmd = "/usr/bin/tesseract"  # Caminho comum no Streamlit Cloud
+
+# Verificar se o Tesseract está acessível
+try:
+    print("Versão do Tesseract instalada:", pytesseract.get_tesseract_version())
+except Exception as e:
+    print("Erro ao acessar o Tesseract:", e)
 class OCRProcessor:
     def __init__(self):
         import os
