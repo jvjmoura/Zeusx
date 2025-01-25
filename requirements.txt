@@ -12,6 +12,6 @@ youtube_transcript_api==0.6.2
 pytesseract
 pdf2image
 pillow
-tesseract-ocr
-libtesseract-dev
-tesseract-ocr-por
+pytesseract
+pdf2image
+
