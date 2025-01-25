@@ -14,4 +14,6 @@ pdf2image
 pillow
 pytesseract
 pdf2image
+poppler-utils
+
 
